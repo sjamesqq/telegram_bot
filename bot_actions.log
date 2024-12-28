@@ -1,0 +1,205 @@
+2024-12-28 06:49:20,298 - INFO - Application started
+2024-12-28 06:50:15,397 - INFO - Application is stopping. This might take a moment.
+2024-12-28 06:50:15,398 - INFO - Application.stop() complete
+2024-12-28 06:50:16,152 - INFO - Application started
+2024-12-28 06:52:22,225 - INFO - Application is stopping. This might take a moment.
+2024-12-28 06:52:22,225 - INFO - Application.stop() complete
+2024-12-28 06:52:22,561 - INFO - Запуск бота...
+2024-12-28 06:52:22,934 - INFO - Application started
+2024-12-28 06:52:23,477 - INFO - Application is stopping. This might take a moment.
+2024-12-28 06:52:23,477 - INFO - Application.stop() complete
+2024-12-28 06:52:23,805 - INFO - Запуск бота...
+2024-12-28 06:52:24,172 - INFO - Application started
+2024-12-28 06:52:39,372 - INFO - Application is stopping. This might take a moment.
+2024-12-28 06:52:39,372 - INFO - Application.stop() complete
+2024-12-28 06:52:39,684 - INFO - Запуск бота...
+2024-12-28 06:52:40,123 - INFO - Application started
+2024-12-28 06:52:46,850 - INFO - Пользователь 5434447133 вызвал команду /start
+2024-12-28 06:52:48,607 - INFO - Пользователь 5434447133 нажал кнопку facts_today
+2024-12-28 06:52:50,728 - INFO - Пользователь 5434447133 вызвал команду /start
+2024-12-28 06:52:52,145 - INFO - Пользователь 5434447133 нажал кнопку search_category
+2024-12-28 06:52:53,266 - INFO - Пользователь 5434447133 нажал кнопку category_наука
+2024-12-28 06:52:54,918 - INFO - Пользователь 5434447133 вызвал команду /start
+2024-12-28 06:52:56,051 - INFO - Пользователь 5434447133 нажал кнопку random_fact
+2024-12-28 06:52:57,248 - INFO - Пользователь 5434447133 нажал кнопку save_fact
+2024-12-28 06:52:58,797 - INFO - Пользователь 5434447133 вызвал команду /start
+2024-12-28 06:53:13,151 - INFO - Пользователь 5434447133 нажал кнопку games
+2024-12-28 06:53:14,506 - INFO - Пользователь 5434447133 нажал кнопку game_guess_year
+2024-12-28 06:53:20,418 - INFO - Пользователь 5434447133 отправил сообщение: 2122
+2024-12-28 06:53:20,818 - INFO - Пользователь 5434447133 ошибся. Правильный год: 1832.
+2024-12-28 06:53:25,235 - INFO - Пользователь 5434447133 вызвал команду /start
+2024-12-28 06:53:26,403 - INFO - Пользователь 5434447133 нажал кнопку change_language
+2024-12-28 06:53:27,552 - INFO - Пользователь 5434447133 нажал кнопку set_language_ru
+2024-12-28 06:53:29,200 - INFO - Пользователь 5434447133 вызвал команду /start
+2024-12-28 06:53:30,192 - INFO - Пользователь 5434447133 нажал кнопку change_language
+2024-12-28 06:53:31,114 - INFO - Пользователь 5434447133 нажал кнопку set_language_en
+2024-12-28 06:53:34,145 - INFO - Пользователь 5434447133 вызвал команду /start
+2024-12-28 06:53:35,359 - INFO - Пользователь 5434447133 нажал кнопку facts_today
+2024-12-28 06:53:35,457 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sam06\PycharmProjects\BotTg\.venv\lib\site-packages\telegram\ext\_application.py", line 1104, in process_update
+    await coroutine
+  File "C:\Users\sam06\PycharmProjects\BotTg\.venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "C:\Users\sam06\PycharmProjects\BotTg\bot.py", line 80, in handle_button
+    message = "\n".join([f"- {fact['text']} ({fact['category']})" for fact in facts])
+  File "C:\Users\sam06\PycharmProjects\BotTg\bot.py", line 80, in <listcomp>
+    message = "\n".join([f"- {fact['text']} ({fact['category']})" for fact in facts])
+TypeError: string indices must be integers
+2024-12-28 06:53:37,292 - INFO - Пользователь 5434447133 нажал кнопку facts_today
+2024-12-28 06:53:37,392 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sam06\PycharmProjects\BotTg\.venv\lib\site-packages\telegram\ext\_application.py", line 1104, in process_update
+    await coroutine
+  File "C:\Users\sam06\PycharmProjects\BotTg\.venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "C:\Users\sam06\PycharmProjects\BotTg\bot.py", line 80, in handle_button
+    message = "\n".join([f"- {fact['text']} ({fact['category']})" for fact in facts])
+  File "C:\Users\sam06\PycharmProjects\BotTg\bot.py", line 80, in <listcomp>
+    message = "\n".join([f"- {fact['text']} ({fact['category']})" for fact in facts])
+TypeError: string indices must be integers
+2024-12-28 06:53:38,312 - INFO - Пользователь 5434447133 нажал кнопку facts_today
+2024-12-28 06:53:38,418 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sam06\PycharmProjects\BotTg\.venv\lib\site-packages\telegram\ext\_application.py", line 1104, in process_update
+    await coroutine
+  File "C:\Users\sam06\PycharmProjects\BotTg\.venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "C:\Users\sam06\PycharmProjects\BotTg\bot.py", line 80, in handle_button
+    message = "\n".join([f"- {fact['text']} ({fact['category']})" for fact in facts])
+  File "C:\Users\sam06\PycharmProjects\BotTg\bot.py", line 80, in <listcomp>
+    message = "\n".join([f"- {fact['text']} ({fact['category']})" for fact in facts])
+TypeError: string indices must be integers
+2024-12-28 06:55:09,466 - INFO - Application is stopping. This might take a moment.
+2024-12-28 06:55:09,466 - INFO - Application.stop() complete
+2024-12-28 06:55:09,800 - INFO - Запуск бота...
+2024-12-28 06:55:10,140 - INFO - Application started
+2024-12-28 06:57:53,829 - INFO - Пользователь 5434447133 вызвал команду /start
+2024-12-28 06:57:55,360 - INFO - Пользователь 5434447133 нажал кнопку facts_today
+2024-12-28 06:57:57,020 - INFO - Пользователь 5434447133 вызвал команду /start
+2024-12-28 06:57:58,275 - INFO - Пользователь 5434447133 нажал кнопку change_language
+2024-12-28 06:57:59,281 - INFO - Пользователь 5434447133 нажал кнопку set_language_en
+2024-12-28 06:57:59,395 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sam06\PycharmProjects\BotTg\.venv\lib\site-packages\telegram\ext\_application.py", line 1104, in process_update
+    await coroutine
+  File "C:\Users\sam06\PycharmProjects\BotTg\.venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "C:\Users\sam06\PycharmProjects\BotTg\bot.py", line 173, in handle_button
+    self.facts = self.load_facts()
+  File "C:\Users\sam06\PycharmProjects\BotTg\bot.py", line 26, in load_facts
+    return json.load(file)
+  File "C:\Users\sam06\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Users\sam06\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\sam06\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\sam06\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 4 column 71 (char 178)
+2024-12-28 06:58:01,183 - INFO - Пользователь 5434447133 нажал кнопку set_language_en
+2024-12-28 06:58:01,309 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sam06\PycharmProjects\BotTg\.venv\lib\site-packages\telegram\ext\_application.py", line 1104, in process_update
+    await coroutine
+  File "C:\Users\sam06\PycharmProjects\BotTg\.venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "C:\Users\sam06\PycharmProjects\BotTg\bot.py", line 173, in handle_button
+    self.facts = self.load_facts()
+  File "C:\Users\sam06\PycharmProjects\BotTg\bot.py", line 26, in load_facts
+    return json.load(file)
+  File "C:\Users\sam06\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Users\sam06\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\sam06\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\sam06\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 4 column 71 (char 178)
+2024-12-28 06:58:02,166 - INFO - Пользователь 5434447133 нажал кнопку set_language_en
+2024-12-28 06:58:02,258 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sam06\PycharmProjects\BotTg\.venv\lib\site-packages\telegram\ext\_application.py", line 1104, in process_update
+    await coroutine
+  File "C:\Users\sam06\PycharmProjects\BotTg\.venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "C:\Users\sam06\PycharmProjects\BotTg\bot.py", line 173, in handle_button
+    self.facts = self.load_facts()
+  File "C:\Users\sam06\PycharmProjects\BotTg\bot.py", line 26, in load_facts
+    return json.load(file)
+  File "C:\Users\sam06\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Users\sam06\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\sam06\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\sam06\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 4 column 71 (char 178)
+2024-12-28 06:58:09,432 - INFO - Пользователь 5434447133 нажал кнопку set_language_en
+2024-12-28 06:58:09,742 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sam06\PycharmProjects\BotTg\.venv\lib\site-packages\telegram\ext\_application.py", line 1104, in process_update
+    await coroutine
+  File "C:\Users\sam06\PycharmProjects\BotTg\.venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "C:\Users\sam06\PycharmProjects\BotTg\bot.py", line 173, in handle_button
+    self.facts = self.load_facts()
+  File "C:\Users\sam06\PycharmProjects\BotTg\bot.py", line 26, in load_facts
+    return json.load(file)
+  File "C:\Users\sam06\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Users\sam06\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\sam06\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\sam06\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 4 column 71 (char 178)
+2024-12-28 06:58:10,187 - INFO - Пользователь 5434447133 нажал кнопку set_language_ru
+2024-12-28 06:58:11,890 - INFO - Пользователь 5434447133 вызвал команду /start
+2024-12-28 06:58:13,003 - INFO - Пользователь 5434447133 нажал кнопку change_language
+2024-12-28 06:58:14,004 - INFO - Пользователь 5434447133 нажал кнопку set_language_en
+2024-12-28 06:58:14,097 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sam06\PycharmProjects\BotTg\.venv\lib\site-packages\telegram\ext\_application.py", line 1104, in process_update
+    await coroutine
+  File "C:\Users\sam06\PycharmProjects\BotTg\.venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "C:\Users\sam06\PycharmProjects\BotTg\bot.py", line 173, in handle_button
+    self.facts = self.load_facts()
+  File "C:\Users\sam06\PycharmProjects\BotTg\bot.py", line 26, in load_facts
+    return json.load(file)
+  File "C:\Users\sam06\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Users\sam06\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\sam06\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\sam06\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 4 column 71 (char 178)
+2024-12-28 07:00:22,493 - INFO - Пользователь 5434447133 нажал кнопку set_language_en
+2024-12-28 07:00:24,219 - INFO - Пользователь 5434447133 вызвал команду /start
+2024-12-28 07:00:25,357 - INFO - Пользователь 5434447133 нажал кнопку change_language
+2024-12-28 07:00:26,439 - INFO - Пользователь 5434447133 нажал кнопку set_language_en
+2024-12-28 07:00:28,115 - INFO - Пользователь 5434447133 вызвал команду /start
+2024-12-28 07:00:29,168 - INFO - Пользователь 5434447133 нажал кнопку facts_today
+2024-12-28 07:00:44,102 - INFO - Пользователь 5434447133 вызвал команду /start
+2024-12-28 07:00:45,880 - INFO - Пользователь 5434447133 нажал кнопку facts_today
+2024-12-28 07:00:47,699 - INFO - Пользователь 5434447133 вызвал команду /start
+2024-12-28 07:00:49,257 - INFO - Пользователь 5434447133 нажал кнопку change_language
+2024-12-28 07:00:50,621 - INFO - Пользователь 5434447133 нажал кнопку set_language_ru
+2024-12-28 07:00:52,275 - INFO - Пользователь 5434447133 вызвал команду /start
+2024-12-28 07:03:03,879 - INFO - Application is stopping. This might take a moment.
+2024-12-28 07:03:03,879 - INFO - Application.stop() complete
+2024-12-28 07:03:04,219 - INFO - Запуск бота...
+2024-12-28 07:03:04,691 - INFO - Application started
+2024-12-28 07:03:05,135 - INFO - Application is stopping. This might take a moment.
+2024-12-28 07:03:05,135 - INFO - Application.stop() complete
+2024-12-28 07:03:09,802 - INFO - Запуск бота...
+2024-12-28 07:03:10,210 - INFO - Application started
+2024-12-28 07:03:11,266 - INFO - Application is stopping. This might take a moment.
+2024-12-28 07:03:11,267 - INFO - Application.stop() complete
