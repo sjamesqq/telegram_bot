@@ -1,4 +1,5 @@
 import json
+import asyncio
 import logging
 import datetime
 import random
@@ -84,9 +85,9 @@ class HistoryBot(HistoricalFacts):
 
         elif query.data == 'search_category':
             keyboard = [
-                [InlineKeyboardButton("Наука", callback_data='category_science')],
-                [InlineKeyboardButton("Культура", callback_data='category_culture')],
-                [InlineKeyboardButton("Политика", callback_data='category_politics')]
+                [InlineKeyboardButton("Наука", callback_data='category_наука')],
+                [InlineKeyboardButton("Культура", callback_data='category_культура')],
+                [InlineKeyboardButton("Политика", callback_data='category_политика')]
             ]
             reply_markup = InlineKeyboardMarkup(keyboard)
             await query.edit_message_text("Выберите категорию:", reply_markup=reply_markup)
@@ -220,6 +221,6 @@ class HistoryBot(HistoricalFacts):
 
 # Запуск бота
 if __name__ == "__main__":
-    token = "7564023208:AAFWICKvnTPGP3eKQPAsUOpCPYThGzMasiQ"
+    token = "7921916797:AAGE3aSbTh4AX8biwZTjnu8D17PgtYrP-9M"
     bot = HistoryBot(token=token)
     bot.run()

@@ -1,10 +1,10 @@
 {
     "12-28": [
-        {"text": "1895 — Louis Lumière patented the cinematograph.", "category": "science"}
+        {"text": "1895 — Louis Lumière patented the cinematograph.", "category": "наука"}
 
     ],
     "01-01": [
-        {"text": "1700 — Peter I moved New Year's celebration to January 1.", "category": "politics"},
-        {"text": "1992 — Russia and the USA established diplomatic relations.", "category": "politics"}
+        {"text": "1700 — Peter I moved New Year's celebration to January 1.", "category": "политика"},
+        {"text": "1992 — Russia and the USA established diplomatic relations.", "category": "политика"}
     ]
 }
