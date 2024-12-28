@@ -220,6 +220,6 @@ class HistoryBot(HistoricalFacts):
 
 # Запуск бота
 if __name__ == "__main__":
-    token = "7564023208:AAFWICKvnTPGP3eKQPAsUOpCPYThGzMasiQ"
+    token = "7921916797:AAGE3aSbTh4AX8biwZTjnu8D17PgtYrP-9M"
     bot = HistoryBot(token=token)
     bot.run()
